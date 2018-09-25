@@ -39,9 +39,7 @@ for sample in samples:
 
     print(star_command, file=open('STAR_swarm.sh', "a"))
 
-    htseq_command = 'htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/' \
-        + sample + '_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf \
-         > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/' + sample + '_htseq_counts.txt' + "\n\n"
+    htseq_command = 'htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/' + sample + '_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/' + sample + '_htseq_counts.txt' + "\n\n"
 
     print(htseq_command, file=open('htseq_swarm.sh', "a"))
 
