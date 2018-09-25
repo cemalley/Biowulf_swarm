@@ -1,0 +1,36 @@
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_1_S16_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_1_S16_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_2_S17_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_2_S17_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_3_S18_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_3_S18_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_4_S19_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_4_S19_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_5_S20_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_5_S20_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_6_S21_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_6_S21_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_1_S16_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_1_S16_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_2_S17_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_2_S17_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_3_S18_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_3_S18_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_4_S19_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_4_S19_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_5_S20_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_5_S20_htseq_counts.txt
+
+
+htseq-count -f bam -r pos -s no -t exon -m union /data/NCATS_ifx/data/mRNASeq/Vukasin/bam/VJ3736_6_S21_hg38Aligned.sortedByCoord.out.bam /fdb/GENCODE/Gencode_human/release_27/gencode.v27.annotation.gtf          > /data/NCATS_ifx/data/mRNASeq/Vukasin/htseq/VJ3736_6_S21_htseq_counts.txt
+
+
